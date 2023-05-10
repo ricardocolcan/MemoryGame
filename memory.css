@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 750px;  
+    margin: 0 auto;
+    /* border: 3px solid rgb(157, 157, 157); */
+    padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 250%;
+    color: rgb(41, 85, 184,1);
+    margin-bottom: .5em;
+    text-align: center;
+    text-shadow: 5px 4px 3px rgb(157, 157, 157);
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+#titlePage{
+    display: flex;
+    justify-content: right;
+    align-items: center;   
+    padding-bottom: 10px; 
+}
+#buttonGame{
+    display: flex;
+    justify-content: space-between;
+}
+#infoGame{
+    display: flex;
+}
+label {
+    float: left;
+    width: 8em;
+}
+input, select { 
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input[type=checkbox] { 
+    width: 2em;
+}
+header p {
+	margin: 0 2em 1em 0;
+}
+#player, #high_score, #correct {
+	/* float: center; */
+}
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left; 
+    border-radius: 15px;
+}
+.clear {
+    clear: both;
+}
+
+#cards{
+    /* Each row is with 8 columns */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto; 
+}
+span{
+    color: red;
+}
+#new_game{
+    text-align: left;
+}
+#new_game a:hover{
+    background-color: rgb(157, 157, 157);
+    color: white;        
+}
+
+#new_game a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 2px;
+    background-color: blueviolet;
+    text-shadow: brown 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+small{
+    font-weight: bold;
+    font-style: italic;
+}
